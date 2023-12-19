@@ -90,7 +90,7 @@ jobs:
     #  run: |
     #    git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon-jerrykuku
     
-    - name: Configuration Customization - Build_Newifi_D2
+    - name: Configuration Customization - Build_youku_yk1
       env:
         CONFIG_FILE: 'youku_yk1.config'
       run: |
